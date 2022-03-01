@@ -1,0 +1,584 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A divine miscellany full of delightful and profitable variety, or, The pious mans recreation, in a garden of sweet flowers and fruits divided into four parts / by Richard Younge of Roxwel in Essex.</title>
+            <author>Younge, Richard.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1665</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 75 KB of XML-encoded text transcribed from 17 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2013-12">2013-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A97248</idno>
+            <idno type="STC">Wing Y150</idno>
+            <idno type="STC">ESTC R43833</idno>
+            <idno type="EEBO-CITATION">42475298</idno>
+            <idno type="OCLC">ocm 42475298</idno>
+            <idno type="VID">151473</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A97248)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 151473)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2260:10)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A divine miscellany full of delightful and profitable variety, or, The pious mans recreation, in a garden of sweet flowers and fruits divided into four parts / by Richard Younge of Roxwel in Essex.</title>
+                  <author>Younge, Richard.</author>
+               </titleStmt>
+               <extent>[2], 30 p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Tho. Milbourn, and are to be sold by D. Newman ... and by Peter Parker ... with many other pieces composed by the same Author,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1665.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Imperfect: stained, tightly bound, faded, irregular type, with loss of print.</note>
+                  <note>Reproduction of original in: Bodleian Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Christian life --  Early works to 1800.</term>
+               <term>Conduct of life --  Meditations --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2012-05</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2012-05</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2012-06</date>
+            <label>Geremy Carnes</label>Sampled and proofread</change>
+         <change>
+            <date>2012-06</date>
+            <label>Geremy Carnes</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2013-02</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:151473:1" rendition="simple:additions"/>
+            <p>A Divine Miſcellany, Full of Delightful and Profitable VARIETY.</p>
+            <p>OR, THE PIOUS MANS Recreation, In a Garden of ſweet Flowers and Fruits.</p>
+            <p>Divided into Four Parts.</p>
+            <p>By <hi>Richard Younge</hi> of <hi>Roxwel</hi> in <hi>Eſſex.</hi>
+            </p>
+            <p>Licenſed and Entred according to Order.</p>
+            <p>
+               <hi>London,</hi> Printed by <hi>Tho. Milbourn,</hi> and are to be ſold by D. <hi>Newman</hi> at the Kings Arms in the Poultry, and by <hi>Peter Parker</hi> in Popes-head-Alley; with many other pieces compoſed by the ſame Author. 1665.</p>
+         </div>
+      </front>
+      <body>
+         <div type="miscellany">
+            <pb facs="tcp:151473:2"/>
+            <pb n="1" facs="tcp:151473:2"/>
+            <head>A Divine Miſcellany, Full of Delightful and Profitable Variety.</head>
+            <div n="1" type="section">
+               <head>SECT. I.</head>
+               <p>
+                  <hi>
+                     <seg rend="decorInit">B</seg>Ooks</hi> well choſen, are the <hi>beſt recreation,</hi> the <hi>beſt company,</hi> the <hi>beſt cheer,</hi> the <hi>beſt cheap:</hi> This little <hi>Miſcellany</hi> is a <hi>Feaſt,</hi> wherein <hi>Wholſomeneſs</hi> ſtrives with <hi>Pleaſantneſs,</hi> and <hi>Variety</hi> with both. <hi>Each Section</hi> is a ſe<g ref="char:EOLhyphen"/>veral <hi>Diſh,</hi> ſtuft full of <hi>Examples, Sayings,</hi> and <hi>Similitudes,</hi> both pithy and weighty, (for that's the <hi>meat</hi>) <hi>ſerved out</hi> for ſeveral <hi>Palates;</hi> and he is a very Block that is affected with none of them.</p>
+               <p>A <hi>fine Wit,</hi> and a <hi>Christian Will,</hi> like the little <hi>Bee,</hi> will not off the meaneſt <hi>Flower,</hi> until ſhe hath made ſomewhat of it. Read <hi>Books</hi> as <hi>Bees</hi> to fill your <hi>Combs,</hi> and not as <hi>Butterflyes</hi> to paint your <hi>Wings:</hi> Reſemble a <hi>good ſtomack,</hi> that extracts all things fit for <hi>nouriſhment,</hi> and caſteth out the reſidue as <hi>excrement.</hi> A good heart will glean from hence, whatſoever may add to his knowledge or vertue: Whereas the carnally minded, will uſe it as ſome do <hi>arti<g ref="char:EOLhyphen"/>ficial teeth,</hi> which are more <hi>for ſhew,</hi> then <hi>ſervice;</hi> more for <hi>ability of diſcourſe,</hi> then for <hi>activity of practice:</hi> to <hi>talk of it,</hi> rather then to <hi>walk by it.</hi> A <hi>Reader</hi> or <hi>Auditor,</hi> ſhould not be like the <hi>Spunge,</hi> that holds all <hi>liquids</hi> both <hi>good</hi> and <hi>bad;</hi> nor like a <hi>Seive,</hi> that holds <hi>no water</hi> neither <hi>good nor bad;</hi> nor like the <hi>Boulter,</hi> that keeps in the <hi>coarſe bran,</hi> and
+<pb n="2" facs="tcp:151473:3"/>throws out the <hi>fine flower;</hi> but like the <hi>Scry,</hi> that <hi>keeps in</hi> the <hi>good ſeed,</hi> and <hi>caſteth out the duſt, and unprofitable dar<g ref="char:EOLhyphen"/>nel.</hi> As O the different diſpoſitions of <hi>Readers!</hi> when one with the <hi>Bee,</hi> will work that into <hi>Honey,</hi> which ano<g ref="char:EOLhyphen"/>ther like the <hi>putrid Spider,</hi> will convert into <hi>poyſon.</hi> For <hi>ſen<g ref="char:EOLhyphen"/>ſual</hi> Hearers are worſe then <hi>beaſts,</hi> or indeed <hi>plants;</hi> for the very <hi>plants</hi> have ſuch a natural vertue; that they <hi>draw unto themſelves the good juyce,</hi> and reject the <hi>bad;</hi> and the <hi>beaſts</hi> can take things which are properly good for them, and <hi>reject</hi> the evil; As appears by the poyſoned Apple in the <hi>Indies.</hi> Yet how uſual is it with the common peo<g ref="char:EOLhyphen"/>ple, when they hear a witty and rhetorical Preacher, that flatters ſin, and flouts holineſs, (for be they never ſo illi<g ref="char:EOLhyphen"/>terate, they love Wit and Oratory as well as they that have it) to applaud his Sermon, and be ſo tickled with his Notions, and skill in <hi>ſophiſtry,</hi> as if they were at their wits end with admiration? when the truth is, they like not theſe <hi>Waſps</hi> ſo much for the <hi>Honey</hi> they have <hi>in their combs,</hi> as for the <hi>sting</hi> which they bring <hi>in their tayls,</hi> wherewith to <hi>gall</hi> the <hi>godly.</hi> And this they will not fail to remember, that it may ſtiffen their <hi>prejudice</hi> and <hi>enmity</hi> a<g ref="char:EOLhyphen"/>gainſt <hi>the good, and goodneſs.</hi> For their memory is like the <hi>boulter,</hi> which caſteth out all the <hi>flower,</hi> keeping onely the <hi>bran:</hi> And themſelves reſemble the <hi>Egyptians,</hi> who behold the <hi>Sun,</hi> the <hi>Moon,</hi> the <hi>Stars,</hi> all the <hi>glories of nature</hi> with<g ref="char:EOLhyphen"/>out admiration, yea without common regard, until they eſpy <hi>a Crocodile,</hi> an <hi>ugly ſerpent,</hi> but then will they down on their knees to worſhip it. In a word, ſo mind what thou readeſt, as if it were ſpoken onely to thy ſelf; and be not like a <hi>childe,</hi> that <hi>looking himſelf in a Glaſs,</hi> thinks he <hi>ſees another childes face,</hi> and <hi>not his own.</hi> Want of Ap<g ref="char:EOLhyphen"/>plication, makes all we read or hear, utterly ineffectual.</p>
+               <p>As what would it have availed the <hi>Iſraelites,</hi> that the <hi>Manna</hi> lay about their <hi>Tents,</hi> if they had not <hi>gathered</hi> and <hi>eaten</hi> it? <hi>Cloaths</hi> muſt be <hi>put on, meat eaten,</hi> a <hi>playster applyed</hi> or they will never <hi>warm, nouriſh</hi> or <hi>heal.</hi> Therefore a good
+<pb n="3" facs="tcp:151473:3"/>heart will <hi>apply to himſelf</hi> whatſoever is written in the Word; for a<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the <hi>ſtomach ſends the ſtrength</hi> of the <hi>meat</hi> in<g ref="char:EOLhyphen"/>to every <hi>member</hi> of the <hi>body:</hi> ſo we ſhould ſend to the <hi>eye,</hi> that which is ſpoken to the <hi>eye;</hi> and to the <hi>ear,</hi> that which is ſpoken to the <hi>ear;</hi> and to the <hi>tongue,</hi> that which is ſpo<g ref="char:EOLhyphen"/>ken to the <hi>tongue;</hi> and to the <hi>hand,</hi> that which is ſpoken to the <hi>hand;</hi> and ſo to the <hi>heart,</hi> and every <hi>faculty</hi> and <hi>member</hi> or <hi>ſoul</hi> and <hi>body:</hi> if we hear <hi>comfort,</hi> we ſhould <hi>ap<g ref="char:EOLhyphen"/>ply it to fear;</hi> if we hear a <hi>promiſe,</hi> we ſhould <hi>apply that to our diſtru<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>t;</hi> if we hear a <hi>threatning,</hi> we ſhould <hi>apply that to our preſumption;</hi> and ſo <hi>fill up the gap ſtill where the Devil would enter.</hi> This is the way to have our <hi>faith ſtrengthned,</hi> our <hi>patience increaſed,</hi> our <hi>judgement rectified,</hi> our <hi>wills reform<g ref="char:EOLhyphen"/>ed,</hi> our <hi>love and zeal inflamed,</hi> our <hi>life and practice bettered,</hi> and our <hi>ſouls</hi> eternally <hi>ſaved.</hi> But moſt bleſſed and happy is that <hi>eye, which can ſee God in all,</hi> and that <hi>hand which can ſerve God with all.</hi> That when he <hi>ſuffers,</hi> can <hi>caſt one eye upon the hand</hi> that ſent the blow, and <hi>the other on the ſin</hi> which occaſioned it. That upon all occaſions will <hi>turn his eyes inward,</hi> and read his <hi>ſin</hi> in his <hi>puniſhment:</hi> That won<g ref="char:EOLhyphen"/>ders not ſo much at <hi>anothers wickedneſs,</hi> or unthankfulneſs <hi>to him,</hi> as at <hi>his own ingratitude,</hi> and woful unworthineſs <hi>towards God,</hi> and his <hi>Redeemer:</hi> That in ſtead of <hi>murmur<g ref="char:EOLhyphen"/>ing for the few things be wants,</hi> deſires to <hi>be thankful for the many things he enjoys.</hi> That when he meets with one that is grievouſly <hi>deformed</hi> or <hi>wicked,</hi> or that is <hi>lunatick,</hi> or <hi>diſea<g ref="char:EOLhyphen"/>ſed</hi> with the <hi>Falling-Sickneſs, Leproſie,</hi> or the like, can re<g ref="char:EOLhyphen"/>flect upon himſelf, and ſay in his heart, O Lord, this might have been my caſe! how good and gratious art thou to me, that haſt freed me from ſo many miſeries, which my ſins have juſtly deſerved to have brought upon me? Yea, if it were not for thy diſtinguiſhing mercy, I might at this preſent have been frying in <hi>Hell Flames,</hi> never to be freed. Thou mighteſt have made me a <hi>Toad</hi> or a <hi>Serpent,</hi> but thou haſt made me <hi>a man, a new creature:</hi> Thou haſt <hi>opened my eyes to ſee the wonders of thy Law,</hi> whereas I was
+<pb n="4" facs="tcp:151473:4"/>
+                  <hi>born ſtark blind,</hi> to all <hi>ſpiritual objects,</hi> and might have <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> remained as millions do, under the conduct of the <hi>Princ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> of darkneſs,</hi> to be ruled and governed by him. That whe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> he beholdeth the <hi>ſtately buildings,</hi> the <hi>ſhady Groves,</hi> th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Chryſtal Brooks,</hi> the <hi>Pleaſant Meadows</hi> of wicked men, ca<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> think with himſelf, If <hi>Sinners</hi> go away with ſuch <hi>larg<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Meſſes,</hi> what ſhall be the <hi>Benjamins Portion?</hi> If the <hi>Sons <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> the Concubines</hi> have ſo <hi>great gifts,</hi> what ſhall be the <hi>inheri<g ref="char:EOLhyphen"/>tance of the children of promiſe?</hi> If the <hi>Dogs</hi> fare ſo wel<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>under the Table,</hi> how are the <hi>Children</hi> ſeaſted that <hi>ſit at th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Table?</hi>
+               </p>
+            </div>
+            <div n="2" type="section">
+               <head>SECT. II.</head>
+               <p>THe firſt ſtep to <hi>Grace,</hi> is to feel <hi>the want of Grace;</hi> and the next way to <hi>receive mercy,</hi> is to <hi>ſee our ſelves mi<g ref="char:EOLhyphen"/>ſerable:</hi> by reaſon of our <hi>Nature</hi> in regard of <hi>Original ſin</hi> and our <hi>manifold breach of Gods righteous Law,</hi> by <hi>actual ſin</hi> and the <hi>guilt</hi> and <hi>puniſhment</hi> due to us for them both.</p>
+               <p>We <hi>vowed</hi> our ſelves to Chriſt in our <hi>Baptiſm,</hi> but we forget that: we promiſed by Sureties to be his <hi>Faithfu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> Souldiers</hi> and <hi>Servant's</hi> to our lives end, but our <hi>reſts</hi> have ſtoln away one <hi>half of our times,</hi> and our <hi>luſts the other<g ref="char:punc">▪</g>
+                  </hi> And what is this but downright <hi>Perjury?</hi> At leaſt if here<g ref="char:EOLhyphen"/>after we do not our utmoſt, to perform this our Vow. Wherefore let us bethink our ſelves, how we may <hi>redeem the time,</hi> and for hereafter reſolve with, and ſay as St. <hi>Hierome</hi> once did, Should <hi>my Father</hi> kneel to me, my <hi>Mo<g ref="char:EOLhyphen"/>ther</hi> beſeech me with tears; my <hi>Brothers and Siſters</hi> ſeek to entice me to the love of this <hi>world,</hi> and the neglect of <hi>God<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> Worſhip; I would <hi>ſhake off</hi> my Father, <hi>tread under foot</hi> my Mother, and <hi>ſpurn</hi> my Brothers and Siſters, rather then they ſhould keep me from the ſervice of my <hi>God.</hi> Neither will the complaint of our <hi>Firſt Parents</hi> be taken for a good anſwer or plea, at the <hi>Great Day:</hi> it will be fruitleſs to ſay ſuch and ſuch a friend deceived me. <hi>Eve</hi> was perſwaded by the <hi>Serpent,</hi> to eat the <hi>Forbidden Fruit,</hi> and <hi>Adam</hi> by
+<pb n="5" facs="tcp:151473:4"/>
+                  <hi>Eve;</hi> yet that would not juſtifie them, each of them had a ſeveral curſe, both <hi>tempters,</hi> and <hi>tempted:</hi> Therefore let <hi>ſin</hi> be never ſo <hi>ſweet</hi> in the <hi>taſte,</hi> a Wiſe man will with all conſider, that the <hi>effect</hi> will be <hi>bitter,</hi> and ſay, <hi>Satan</hi> and <hi>his inſtruments</hi> like a <hi>flattering Host,</hi> promiſe <hi>good cheer,</hi> but the <hi>reckoming</hi> will more then pay for all; and he that compares the <hi>welcome</hi> with the <hi>farewell,</hi> ſhall finde he had better have <hi>faſted:</hi> for if we <hi>ſwallow</hi> the <hi>bait,</hi> the <hi>hook</hi> will <hi>choak</hi> us.</p>
+               <p>The true Believer as he <hi>is,</hi> what he <hi>was not;</hi> ſo he <hi>does</hi> what he <hi>did not.</hi> We read of ſome that in the <hi>Mona<g ref="char:EOLhyphen"/>ſtery</hi> could <hi>faſt whole days</hi> together with eaſe, but in the <hi>deſart</hi> they could not hold out until <hi>noon,</hi> but their <hi>bellies</hi> would be craving preſently. To a <hi>cannal heart, holy Duties,</hi> as <hi>faſting, praying, hearing,</hi> is ſo tedious and irkſome, that it thinks <hi>one Sabbath,</hi> or <hi>Faſt-day,</hi> more tedious and bur<g ref="char:EOLhyphen"/>denſome, than <hi>ten holy days,</hi> as their conſciences will bear me witneſs. It is meat and drink for an <hi>Hypocrite</hi> to <hi>faſt,</hi> and perform other <hi>Duties;</hi> if <hi>others ſee it,</hi> and the like to ſatisfie his <hi>luſts,</hi> ſo <hi>others ſee it not. Abimeleck</hi> and <hi>Herod</hi> will chooſe to be <hi>deſtroyed,</hi> rather then <hi>ſenſured.</hi> But the <hi>Chriſtian</hi> that does much <hi>in ſecret,</hi> and <hi>keeps it ſe<g ref="char:EOLhyphen"/>cret;</hi> when done, is a <hi>Chriſtian</hi> indeed. As one ſent a <hi>Letter</hi> and a <hi>Box,</hi> with 500 <hi>l.</hi> in it, to Sir <hi>Edwine Sands,</hi> to be beſtowed for the Education of Children in <hi>Virginia,</hi> and for the propagation of the <hi>Goſpel</hi> there: and con<g ref="char:EOLhyphen"/>cluded with <hi>Your brother in Chriſt, duſt, and aſhes.</hi>
+               </p>
+               <p>
+                  <hi>A Chriſtians work</hi> doth not lie in <hi>believing,</hi> or in do<g ref="char:EOLhyphen"/>ing; but in <hi>believing and doing:</hi> Yet he that hath learned to <hi>compoſe his manners,</hi> hath done more then he who hath <hi>compoſed Books.</hi> The <hi>Phariſee,</hi> (and ſo all that are meer<g ref="char:EOLhyphen"/>ly <hi>civil</hi>) was as far from being <hi>Religious,</hi> as he was from being <hi>ſcandalous.</hi> Until the <hi>heart</hi> be changed, God eſteems not what we do; <hi>Civil mens good works are as a meer Car<g ref="char:EOLhyphen"/>kaſe without the ſoul,</hi> ſince <hi>Faith</hi> is wanting: Nor is it any excuſe before God, to plead that the <hi>matter</hi> of the Work
+<pb n="6" facs="tcp:151473:5"/>is <hi>good,</hi> when <hi>the end is not ſo,</hi> ſee <hi>Iſa.</hi> 66.3. Good Works are proper onely to true believers, and ſuch as in <hi>Chriſt,</hi> are firſt accepted; (becauſe as <hi>a woman</hi> that abides <hi>with<g ref="char:EOLhyphen"/>out an Husband,</hi> all her fruit is but <hi>an unlegitimate birth, So until we be marryed to Chriſt, all our best works are as baſtards</hi> and no better then <hi>ſhining ſins,</hi> or <hi>beautiful abominations,</hi> as the <hi>Apoſtle</hi> telleth us, <hi>Heb.</hi> 11.6. <hi>Rom.</hi> 14.23.) And what ſaith <hi>Auſtine</hi> moſt excellently? There is no true vertue, where there is no true Religion; and that conſcience which is not directed by the Word, even when it does beſt, does ill, becauſe it doth it not in Faith, Obedience, and Love. Though we have <hi>lost our ability</hi> in <hi>obeying,</hi> yet <hi>God</hi> hath not <hi>loſt his authority</hi> in <hi>commanding: Mans fault</hi> cannot prejudice <hi>Gods right.</hi>
+               </p>
+               <p>A <hi>true Chriſtian</hi> doth not deſire <hi>Grace</hi> for this end only, that <hi>God</hi> may <hi>Glorifie him;</hi> but he deſires Grace for this end, that <hi>be may glorifie God. Gods ſervants</hi> ſerve him not for <hi>fear</hi> as <hi>ſlaves,</hi> nor for <hi>Wages</hi> as <hi>Hirelings,</hi> but as <hi>ſons</hi> for <hi>Love.</hi> A <hi>Hireling</hi> will be a <hi>Changling:</hi> He that will <hi>ſerve God</hi> for <hi>ſomething,</hi> will <hi>ſerve the Devil</hi> for <hi>more;</hi> he ſhall be <hi>his Maſter,</hi> who gives the <hi>beſt Wages. Doth</hi> Job <hi>ſerve God for nought,</hi> ſays the <hi>Devil?</hi> I that he will; for <hi>Job</hi> ſerved <hi>God</hi> when he <hi>had nought.</hi>
+               </p>
+               <p>Every <hi>gratious ſpirit,</hi> is of a <hi>publick ſpirit;</hi> though every publick ſpirit is not gratious. We read that <hi>Easther</hi> did not preſer her own life above her peoples, but her peo<g ref="char:EOLhyphen"/>ples lives above her own. And indeed, every mans <hi>pri<g ref="char:EOLhyphen"/>vate advantage</hi> is wrapt up in the good of the <hi>Publick.</hi> A <hi>drop of water</hi> is ſoon dryed up, when <hi>alone,</hi> which in the <hi>O<g ref="char:EOLhyphen"/>ceon</hi> retains its moiſture. A ſingle <hi>beam of light</hi> is ſudden<g ref="char:EOLhyphen"/>ly obſcured, whichin the <hi>body of the Sun</hi> ſecures its ſplen<g ref="char:EOLhyphen"/>dor. A <hi>ſelf-pleaſer,</hi> is a <hi>God-diſpleaſer;</hi> and though he may <hi>ſinde himſelf</hi> while he <hi>lives,</hi> yet he will <hi>loſe himſelf</hi> when he dies: Beſides all this, if the <hi>ſtomack,</hi> a publick Officer, ſhould keep all the <hi>meat</hi> to it <hi>felf,</hi> and <hi>ſtarve</hi> the whole <hi>body,</hi> what ſhould it gain thereby, but its own
+<pb n="7" facs="tcp:151473:5"/>ruine? <hi>It was no ſmall comfort (I ſuppoſe) to</hi> Cuthemberg Anaximenes, Triptolemus, Columbus, <hi>and other the like; whoſe happineſs it was to finde out</hi> Printing, <hi>the</hi> Dial, <hi>the the</hi> Plough, <hi>to enrich the World with the</hi> beſt of Metals, <hi>with the</hi> Loadſtone, <hi>and a thouſand the like: But had they</hi> ſmothered <hi>their conceptions, as ſo many</hi> lights under a buſhel; <hi>and not</hi> communicated <hi>the ſame for the</hi> publick, <hi>it had argued in them a great dearth of charity; whereas now (to the glory of</hi> God) <hi>all men are the better for them.</hi>
+               </p>
+               <p>
+                  <hi>Nor is any employment ſo honourable, as for a man to ſerve his generation, and be profitable to many: When like the</hi> Moon <hi>we beſtow the benefits received from</hi> God, <hi>to the profit and commodity of others. It is the</hi> Suns <hi>excellency, that his</hi> bright rayes <hi>and</hi> beams, <hi>are diſperſed into every corner of the</hi> Univerſe. It was a dogged ſpeech of <hi>Cain, Am I'my bro<g ref="char:EOLhyphen"/>thers keeper?</hi> He that would not be his <hi>brothers keeper,</hi> would be his <hi>brothers butcher.</hi>
+               </p>
+            </div>
+            <div n="3" type="section">
+               <head>SECT. III.</head>
+               <p>THe <hi>hand of the Dial ſhewes without,</hi> how the <hi>Wheeles</hi> of the <hi>Clock</hi> move <hi>within.</hi> When the <hi>Condult</hi> is <hi>walled</hi> in, how ſhould we judge of the <hi>ſpring,</hi> but by the <hi>water</hi> which <hi>runs</hi> out at the <hi>Pipes?</hi> By the <hi>Leaves</hi> the <hi>Tree</hi> is ſhewn, but by the <hi>Fruits</hi> the <hi>Tree</hi> is known. Where the <hi>heart</hi> is of a good <hi>conſtitution,</hi> the <hi>life</hi> will be of a <hi>fairer complexion.</hi> Our <hi>love</hi> to <hi>God</hi> muſt be ſo <hi>chaſte</hi> and <hi>pure,</hi> that no <hi>Rivales</hi> have the leaſt admitance: He <hi>loves</hi> not Religion <hi>ſincerely,</hi> that <hi>loves</hi> it not <hi>ſuperlatively;</hi> and he loves not <hi>Chriſt at all,</hi> that loves him not above all.</p>
+               <p>That <hi>ſoul</hi> ſhall have <hi>its will of God,</hi> that <hi>deſires</hi> nothing but <hi>what God wills:</hi> and the onely way to <hi>obtain</hi> our will of <hi>God,</hi> is to <hi>do</hi> the will of <hi>God. Whatſoever we ask we receive of him, becauſe we keep his Commandments, and do thoſe things which are pleaſing in his ſight,</hi> 1 John 3.22.
+<pb n="8" facs="tcp:151473:6"/>
+                  <hi>A vicious Pattern</hi> more <hi>infects,</hi> then a <hi>vertuous Doctrine in<g ref="char:EOLhyphen"/>ſtructs.</hi> When any thing is granted generally, therein is implyed this <hi>exception,</hi> If it be not againſt <hi>Juſtice</hi> and <hi>Right.</hi> We muſt <hi>obey</hi> what <hi>God commanded</hi> by <hi>Moſes,</hi> and what we <hi>cannot</hi> perform, is ſupplyed to us by our <hi>belief in Jeſus. God looks not</hi> for what he <hi>gives not;</hi> yet if the <hi>life of</hi> Chriſt be not our Pattern, the <hi>death of</hi> Chriſt will not be our Pardon. <hi>
+                     <g ref="char:V">Ʋ</g>nbelief</hi> is a <hi>ſin</hi> that is <hi>least viſible,</hi> and yet a <hi>ſin</hi> that is <hi>most damnable.</hi>
+               </p>
+               <p>
+                  <hi>Outward acts</hi> are <hi>more ſcandulous,</hi> but <hi>inward luſts</hi> are <hi>more dangerous.</hi> If you would know the <hi>heart of your ſins,</hi> you muſt then know the <hi>ſin of your hearts. Duties</hi> can never have <hi>too much of our diligence,</hi> nor <hi>too little of our confi<g ref="char:EOLhyphen"/>dence.</hi> It's better to be <hi>innocent,</hi> then <hi>penitent:</hi> to <hi>pre<g ref="char:EOLhyphen"/>vent the Malady,</hi> then to <hi>invent the remedy.</hi> When <hi>ſor<g ref="char:EOLhyphen"/>row</hi> has <hi>poſſeſſion</hi> of the <hi>houſe,</hi> it will <hi>ſhut ſin</hi> out of the <hi>doors.</hi> Your <hi>ſins</hi> have been your greateſt <hi>Traytors,</hi> and your <hi>ſorrows</hi> will be your choiceſt <hi>Helpers. Thoſe ſins</hi> ſhall never make a <hi>Hell for us,</hi> which are an <hi>Hell to us. Godly ſorrow,</hi> is ſuch <hi>a grace,</hi> as <hi>without it</hi> not a man ſhall be <hi>ſaved,</hi> and <hi>with it</hi> not a man ſhall be <hi>damned;</hi> He that <hi>lives in ſin without Repentance,</hi> ſhall <hi>die in ſin without for<g ref="char:EOLhyphen"/>giveneſs:</hi> there muſt be a <hi>loathing of ſin</hi> in our <hi>affections,</hi> before there will be a <hi>leaving of ſin</hi> in our <hi>converſavati<g ref="char:EOLhyphen"/>ons:</hi> A <hi>hearty</hi> mourning for our <hi>tranſgreſſions,</hi> makes way for a <hi>happy</hi> Funeral of our corruptions.</p>
+               <p>A man <hi>deſires not,</hi> what he <hi>knoweth not,</hi> ſaith <hi>Chryſo<g ref="char:EOLhyphen"/>ſtome,</hi> neither are <hi>unknown</hi> evils <hi>feared:</hi> wherefore the work of <hi>regeneration</hi> begins at <hi>illumination,</hi> Acts 26.18. Col. 1.13. 1 Pet. 2.9. Chriſt goes <hi>undeſired</hi> in the <hi>world,</hi> becauſe <hi>undiſerned</hi> by the <hi>world:</hi> But did they <hi>ſee all</hi> in this <hi>Pearl of price,</hi> they would <hi>ſell all to purchaſe it.</hi> As no man can <hi>ſhun the evil</hi> he <hi>fears</hi> not, ſo no man will <hi>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>mbrace the good</hi> he <hi>knows</hi> not. St. <hi>Auſtin,</hi> before his Converſion, could not tell how to be without thoſe de<g ref="char:EOLhyphen"/>lights, he then found ſo much contentment in; but af<g ref="char:EOLhyphen"/>ter,
+<pb n="9" facs="tcp:151473:6"/>when his Nature was changed, by the <hi>loadſtone of the Goſpel,</hi> when he had another ſpirit put into him, then he ſayes, Oh! <hi>how ſweet</hi> it is, to be without thoſe for<g ref="char:EOLhyphen"/>mer <hi>ſweet delights?</hi> God made the world of <hi>nought,</hi> be<g ref="char:EOLhyphen"/>cauſe men ſhould ſet it <hi>at naught:</hi> as did the <hi>Apostle,</hi> (the better to prevail with others) who after he had been <hi>wrapt up into the third heaven,</hi> reckoned of all earthly things, riches, honours, pleaſu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>es, but as <hi>droſs</hi> and <hi>dung,</hi> in com<g ref="char:EOLhyphen"/>pariſon of <hi>the knowledge of Jeſus Christ, and him crucified.</hi> And what ſaith <hi>holy David,</hi> a man of a moſt brave and di<g ref="char:EOLhyphen"/>vine ſpirit? <hi>I have had as great delight in the way of thy teſti<g ref="char:EOLhyphen"/>monies, as in all riches. They are more to be deſired, then gold, yea, than fine gold ſweeter alſo than the honey and the honey<g ref="char:EOLhyphen"/>comb,</hi> Pſal. 19.10. And again, <hi>How ſweet are thy words unto my mouth?</hi> Pſal. 119.103. This likewiſe was <hi>Jobs</hi> judgment, <hi>Job</hi> 28.12. <hi>to</hi> 20.</p>
+               <p>He that looks upon <hi>Heaven</hi> with <hi>deſire,</hi> will look upon <hi>Earth</hi> with <hi>diſdaine;</hi> to <hi>value</hi> a <hi>Heavenly Reverſion</hi> above an <hi>earthly poſſeſſion,</hi> is the beſt proof of a <hi>wiſe man:</hi> he is but a <hi>Cock</hi> of the <hi>worlds Dunghil,</hi> that priſeth a <hi>Barley-Corn</hi> before a <hi>Pearl;</hi> and <hi>Children</hi> onely are more taken with <hi>preſent Counters,</hi> then with <hi>future Crowns:</hi> but as <hi>Carnal things ſeem ſmall</hi> to men that are <hi>Spiritual,</hi> ſo ſpi<g ref="char:EOLhyphen"/>ritual things <hi>ſeem ſmall</hi> to the <hi>carnal; Who will ſhew us any good?</hi> ſay <hi>Senſualiſts,</hi> Pſal. 4.6. Any good will ſerve their turns, that know not the <hi>chiefeſt good.</hi>
+               </p>
+               <p>By <hi>groans unutterable,</hi> God doth uſher in <hi>joyes unſpeak<g ref="char:EOLhyphen"/>able. Sin</hi> never <hi>ruines</hi> but where it <hi>reigns,</hi> it's only a <hi>mur<g ref="char:EOLhyphen"/>therer,</hi> where it is <hi>a governor;</hi> It is not <hi>destroying,</hi> where it is <hi>diſturbing; Luſt</hi> is <hi>least hurtful,</hi> where it is <hi>moſt hate<g ref="char:EOLhyphen"/>ful.</hi> A <hi>Chriſtian</hi> ſhould <hi>mourn</hi> more for the <hi>luſts of the fleſh,</hi> then for the <hi>works of the fleſh;</hi> the <hi>ſin of our Nature,</hi> tranſcends the <hi>nature of our ſins.</hi>
+               </p>
+               <p>We ſhould be more taken up with <hi>ſearching our own hearts,</hi> then in <hi>ſenſuring others lives.</hi> But for want of ſelf-examination, moſt men are like <hi>Travellers,</hi> that are
+<pb n="01" facs="tcp:151473:7"/>
+                  <hi>skilled in other Countrys,</hi> ignorant and unacquainted with <hi>their own;</hi> neither do we more <hi>love our ſelves above others,</hi> then we <hi>ſee others better</hi> then our ſelves; beſide, moſt men put their <hi>own faults,</hi> in that part of the <hi>Wallet</hi> which is be<g ref="char:EOLhyphen"/>hind <hi>them,</hi> &amp; <hi>others faults</hi> in the other part which is <hi>before them;</hi> and they have much the more quiet for ſo doing; an evil Conſcience, being like a bad Wife, that will either be gadding abroad, or ſcolding at home. Men uſually more affect <hi>Spectacles</hi> to view <hi>others faults,</hi> then <hi>Looking-glaſſes</hi> to ſee their <hi>own:</hi> Yet to <hi>point at anothers ſpots</hi> with <hi>foul fingers,</hi> is both ſimple and unſeemly; for they are fitteſt to <hi>blame others,</hi> that are <hi>blameleſs themſelves<g ref="char:punc">▪</g> Let him, ſayes our Saviour, that is without ſin, caſt the firſt ſtone.</hi> In vain do we rebuke thoſe ſins abroad, which we tollerate at home. That man only makes himſelf ridicu<g ref="char:EOLhyphen"/>lous, that leaving his own houſe on fire, runs to quench his neighbours; for which read, <hi>Rom.</hi> 2.19. to 24. 1 <hi>Cor.</hi> 9.27.</p>
+               <p>When thou ſeeſt thy brother ſlip, firſt reflect upon thy ſelf, and ſay with <hi>Plato,</hi> Am not I ſuch an one? Or with <hi>Auſtine,</hi> May not I do the like? For he that will caſt a ſtone at an Offender, muſt be free himſelf: before <hi>Samu<g ref="char:EOLhyphen"/>el</hi> doth charge <hi>Iſrael</hi> with their ſin, he clears his own in<g ref="char:EOLhyphen"/>nocency, 1 <hi>Sam.</hi> 12. And were it not ſtrange, that the <hi>Witch</hi> ſhould tell the <hi>Juggler</hi> he hath a bad Conſcience? or that the Hypocrite ſhould raile at the Player? or the Uſurer challenge the Thief? Or if ſo, will they not retort this anſwer, <hi>Phyſician, heal thy ſelf?</hi> Luke 4.23.</p>
+               <p>But we are ſo far from this, that <hi>vice corrects vertue;</hi> We live in an age, wherein not to be <hi>a Knave,</hi> is to be <hi>a Fool;</hi> and to be <hi>holy,</hi> is to be <hi>abhorred.</hi> Men in theſe dayes, <hi>fear</hi> nothing more then <hi>to be good, hate</hi> nothing more then to be <hi>faſhioned</hi> according to the <hi>Word of God.</hi> One may <hi>more ſafely,</hi> and with leſs blame <hi>live viciouſly,</hi> then <hi>repre<g ref="char:EOLhyphen"/>hend vice; Barrabas</hi> ſhall find more favour with the <hi>mul<g ref="char:EOLhyphen"/>titude,</hi> and leſs oppoſition, then <hi>Jeſus.</hi> Neither are they
+<pb n="11" facs="tcp:151473:7"/>more <hi>propitious to vice,</hi> then they are <hi>malicious to vertue;</hi> for <hi>goodneſs</hi> alone is the <hi>whetſtone</hi> of their <hi>malice,</hi> and makes th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>m <hi>ſick of the ſpleen,</hi> according to that of the <hi>wiſe man,</hi> Prov. 29.27. <hi>He that is upright in his way, is abo<g ref="char:EOLhyphen"/>mination to the wicked:</hi>
+               </p>
+               <q>
+                  <l>Nets are not laid for <hi>kites,</hi> or <hi>birds of prey;</hi>
+                  </l>
+                  <l>But for the <hi>harmleſs</hi> ſtill, our <hi>Gins we lay.</hi>
+                  </l>
+               </q>
+               <p>And the like amongſt the <hi>Papiſts,</hi> who <hi>forbid allowed matrimony,</hi> not <hi>forbear forbidden adultery;</hi> who while they <hi>vow continency,</hi> reſolve to <hi>deflowre virginity;</hi> yea, they <hi>for<g ref="char:EOLhyphen"/>bid marriage,</hi> and <hi>commend Vows of Chaſtity,</hi> that they may <hi>allow Stews,</hi> and have <hi>large Fees</hi> out of <hi>Harlots hires;</hi> and amongſt whom he that <hi>eats</hi> an <hi>Egg,</hi> at an undue time, is caſt into <hi>Priſon,</hi> and made to anſwer for his <hi>Hereſie:</hi> but he that ſpends all the <hi>Lords Day in drinking, drabbing, di<g ref="char:EOLhyphen"/>cing,</hi> is called a <hi>good Fellow,</hi> and paſſeth <hi>unpuniſhed.</hi> Nei<g ref="char:EOLhyphen"/>ther ſhould it be better here, then it is at <hi>Rome,</hi> (where the <hi>Jews,</hi> enemies to the Name of <hi>Chriſt,</hi> do live in peace; but the faithful <hi>Chriſtians</hi> are burned. And where, in time of <hi>Lent,</hi> the Shambles are ſhut, and the Stues are open) might formal Hypocrites have their wills. And the Reaſon of this is, he that hath <hi>no grace himſelf,</hi> is <hi>vexed to ſee it in an other: Godly men</hi> are <hi>Thorns</hi> in <hi>wicked mens eyes,</hi> as <hi>Job</hi> was in the <hi>Devils,</hi> becauſe they are <hi>good,</hi> or becauſe they are deerly <hi>beloved of God.</hi> And it is an everlaſting <hi>rule</hi> of the <hi>Apoſtles, He that is born after the fleſh, will perſecute him that is born after the Spirit,</hi> Gal. 4.29. Not becauſe he is <hi>evil,</hi> but becauſe he is ſo much better then himſelf, 1 <hi>John</hi> 3.12. which was <hi>Cain's</hi> quarrel againſt his brother <hi>Abel.</hi> Beſides, <hi>love</hi> proceeds from the <hi>ſimilitude</hi> of manners; nor can there be <hi>amity,</hi> where there is no <hi>ſympathy:</hi> If a man be <hi>good,</hi> he is <hi>envied;</hi> if <hi>bad,</hi> himſelf is <hi>envious:</hi> Nor is it at all ſtrange, that we are hated and evil ſpoken of even for goodneſs; for ſome will <hi>condemn,</hi> what they as <hi>little
+<pb n="12" facs="tcp:151473:8"/>underſtand</hi> as they do <hi>themſelves;</hi> and others, <hi>the better</hi> a thing is, <hi>the worſe</hi> they will <hi>like it.</hi>
+               </p>
+            </div>
+            <div n="4" type="section">
+               <head>SECT. IV.</head>
+               <p>AS there is <hi>none ſo evil,</hi> but he may do <hi>ſome good;</hi> ſo there is <hi>none ſo good,</hi> but he may <hi>do ſome evil.</hi> All the Saints have had their <hi>failings,</hi> the beſt want their grains of allowance.</p>
+               <p>Though there be many <hi>Profeſſors</hi> that are no <hi>believers,</hi> yet there are no <hi>believers</hi> but are <hi>Profeſſors.</hi> There is a po<g ref="char:EOLhyphen"/>wer of Godlineſs, and a form there muſt be: He that hath but a form of Religion, is an Hypocrite; but he that hath not a form, is an Athieſt. Good men in Scripture are compared to good and <hi>fruitful trees:</hi> the heart is the root, grace the ſap, good works the fruit, profeſſion the leaves and bloſſomes: Now if there be ſap in the root of a tree, and fruit grow on the branches; it's impoſſible but ſome bloſſomes and leaves will ſhew themſelves. Either let <hi>your works</hi> be according to <hi>your profeſſion,</hi> or let your <hi>profeſ<g ref="char:EOLhyphen"/>ſion</hi> be according to <hi>your works.</hi> The looſe walkings of <hi>Chriſtians,</hi> are the <hi>reproaches of Chriſt:</hi> becauſe <hi>Chriſt</hi> is <hi>related</hi> to others, but as a <hi>Lord</hi> to his <hi>Servants;</hi> but he is <hi>united</hi> to us, as an <hi>Head</hi> to the <hi>Members.</hi> The <hi>world won<g ref="char:EOLhyphen"/>ders</hi> at a <hi>Profeſſor,</hi> becauſe his <hi>profeſſion in the world,</hi> is a <hi>ſe<g ref="char:EOLhyphen"/>paration from the world.</hi> The <hi>World</hi> will better <hi>allow</hi> of its <hi>own enormities,</hi> then of <hi>our infirmities.</hi> One hour of the <hi>Suns eclipſing,</hi> attracts more eyes to <hi>view</hi> it, then all its <hi>il<g ref="char:EOLhyphen"/>luſtrious ſhinings.</hi> Therefore while <hi>others ſayl with every wind of Doctrine,</hi> let us <hi>ſteer our courſe</hi> according to the <hi>compaſs of Seripture;</hi> Elſe they will make uſe of <hi>your weak<g ref="char:EOLhyphen"/>neſs,</hi> as a ſhield to defend their <hi>own wickedneſs.</hi> Beſides, <hi>one ſcar</hi> may <hi>ſtain</hi> the faireſt <hi>face;</hi> and though no <hi>Book</hi> is ſo well <hi>printed,</hi> but ſome <hi>Errataes</hi> will paſs; yet your care muſt be that your pure <hi>lives</hi> may <hi>hang a Padlock</hi> upon their impure <hi>mouths;</hi> who will throw the dirt of Profeſſors,
+<pb n="13" facs="tcp:151473:8"/>upon the face of Profeſſion. I grant, no one thing (be it the <hi>Violet</hi>) will <hi>pleaſe every one.</hi> You know the <hi>Fable,</hi> Whether the <hi>Old Man,</hi> or the <hi>Boy, rid</hi> upon the lean <hi>Aſſe,</hi> or <hi>both,</hi> or <hi>neither,</hi> or the <hi>man carried his Aſſe, kept him a<g ref="char:EOLhyphen"/>live,</hi> or <hi>killed him,</hi> ſtill <hi>ſome</hi> were offended, and he was a <hi>fool</hi> to expect <hi>other.</hi> Yet as much as in us lies, <hi>Believers</hi> ſhould <hi>condemn</hi> them <hi>by their lives,</hi> who are ſo ready to <hi>condemn</hi> them <hi>with their lips;</hi> and <hi>ſpin</hi> ſuch <hi>even threds,</hi> as none may <hi>faſten</hi> a <hi>ſnarl</hi> upon them. Not that <hi>Innocency</hi> it ſelf, can <hi>ſhield</hi> a man from the <hi>sting of viporous tongues;</hi> for <hi>malice</hi> never regards <hi>how true</hi> any accuſation is, but <hi>how ſpightful.</hi> Yea, not ſeldome hath ſome <hi>Thirſites</hi> de<g ref="char:EOLhyphen"/>prived a man of his <hi>good name,</hi> which <hi>Innocency</hi> hath ob<g ref="char:EOLhyphen"/>tained by a circumſpect walking for many years. Even as <hi>Thomas Aquinas</hi> could utterly ſpoyl that ſpeaking I<g ref="char:EOLhyphen"/>mage in <hi>one minute,</hi> what <hi>Albertus Magnus</hi> had beſtowed <hi>thirty years</hi> ſtudy upon. Or as <hi>Heroſtratus</hi> an obſcure and baſe Fellow, could eaſily in one night <hi>deſtroy</hi> the <hi>Temple of Diana</hi> at <hi>Epheſus,</hi> which was in <hi>building two hundred and twenty years,</hi> of all <hi>Aſia,</hi> at the <hi>coſt</hi> of ſo many <hi>Princes,</hi> and beautified with the <hi>labours</hi> and cunning of ſo many <hi>excel<g ref="char:EOLhyphen"/>lent workmen.</hi> However, <hi>Good meats</hi> diſpleaſe none but <hi>diſtempered palates;</hi> and to <hi>deſerve praiſe</hi> where <hi>none is ob<g ref="char:EOLhyphen"/>tained,</hi> is better then to <hi>obtain praiſe</hi> where <hi>none is deſerved.</hi> Whence <hi>Libanius</hi> could ſay, If <hi>Bazil commend</hi> me, I care not what <hi>all other</hi> ſay of me: If <hi>Dimetrius</hi> have a <hi>good report</hi> of the truth, and ſuch a one as St. <hi>John</hi> to bare record of him, he needs not care though <hi>Diotrephes</hi> prattles as faſt againſt them both <hi>with malicious words.</hi> And indeed, an ounce of credit with God, is more worth then a talent of <hi>mens</hi> praiſes. <hi>I regard not</hi> (quoth <hi>Plato</hi>) <hi>what every one ſaith, but what he ſaith who ſees all things:</hi> he knew well enough, that the <hi>Fame</hi> which is derived from <hi>Fools</hi> and <hi>Knaves</hi> is <hi>Infamy.</hi> It was the lot of <hi>Chriſt,</hi> and muſt be of all his Followers, to <hi>do good,</hi> and to <hi>ſuffer e<g ref="char:EOLhyphen"/>vil.</hi>
+               </p>
+               <pb n="14" facs="tcp:151473:9"/>
+               <p>No man can have the love and good word of all, go<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> and bad; ſince ſome are as deeply in love with Vice, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> others are with Vertue: or if that were poſſibly, what ſa<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> our <hi>Saviour? Curſed be ye when all men</hi> (that is, evil men<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>ſpeak well of you,</hi> Luk 6.26. And if ſo, whether would yo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> have the love and <hi>good word of the godly or the wicked<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> For their judgements are Diametrially oppoſite; Fo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> as <hi>Solomon</hi> ſpeaks, <hi>a lyar hearkneth to the naughty tongu<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> Prov. And, <hi>They that forſake the Law<g ref="char:punc">▪</g> praiſe the wicke<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> Prov. 28.4. But if the <hi>Image of God by Faith,</hi> be on<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> formed in a man, it is impoſſible but he ſhould <hi>love the<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> that are like himſelf.</hi> Therefore if you would <hi>have th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> love of wicked men, be wicked; if of good men, become goo<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> and then you will count it a diſparagement to have th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> good word of vitious perſons, and the <hi>greateſt praiſe <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> he diſpraiſed of them;</hi> For which ſee, <hi>Luke</hi> 4.34, 35, 4<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Acts</hi> 16.17, 18. <hi>Job</hi> 31.35, 36, 37. <hi>Mark</hi> 14.9. The <hi>languag<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi> of <hi>wicked men</hi> muſt be <hi>read like Hebrew, backward,</hi> and a<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> 
+                  <hi>good men</hi> do ſo for the moſt part, it being a <hi>ſure Rule,</hi> Tha<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> whoſoever preſently gives <hi>credit to accuſations,</hi> is eithe<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>wicked</hi> himſelf, or very <hi>childiſh</hi> in diſcretion: When <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>
+                  <hi>milius Scaurus</hi> was accuſed by <hi>Varius,</hi> he made this an<g ref="char:EOLhyphen"/>ſwer: <hi>Ye Romans,</hi> Varius <hi>affirmeth the crime laid agai<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> me to be true; and</hi> Scaurus <hi>denieth: Whom will you rath<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> believe?</hi> Whence <hi>Jerome</hi> told St. <hi>Austin,</hi> that it was an <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>vident ſigne of glory to him, that all Hereticks did ha<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> and traduce him: And St. <hi>Peter, If any man ſuffer as <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Chriſtian, let him not be aſhamed, but let him glorifie God <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> this behalf,</hi> 1 <hi>Pet.</hi> 4.15, 16. The Reaſon is given by St. <hi>A<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>ſtine:</hi> They that <hi>backbite</hi> me, <hi>&amp;c.</hi> do againſt their will <hi>increaſe my honour,</hi> both with <hi>God and good men.</hi> Alaſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the <hi>durty feet</hi> of ſuch <hi>adverſaries,</hi> the more they tread and rub, the more <hi>luſtre</hi> they give the <hi>figure graven in Gold<g ref="char:punc">▪</g>
+                  </hi> Their cauſeleſs <hi>aſpertions</hi> do but <hi>rub our glory the brighter</hi> And indeed, what wiſe man will not account the <hi>hatr<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </hi> of vitious and wicked men <hi>a greater honour then their lov<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                  </hi>
+                  <pb n="15" facs="tcp:151473:9"/>
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>nd rather wiſh to have a wicked man ſpeak evil then well of him? Yea, the vertuous among the very <hi>Heathen,</hi> 
+                  <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ould make the ſame conſtruction of their calumny: As <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>hen a Rake-ſhame told <hi>Ariſtotle,</hi> That he would rather <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>e <hi>hanged by the neck,</hi> then be ſo <hi>hated of all</hi> men as he <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>as: he replyed, And I would be <hi>hanged by the neck,</hi> ere <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> would be ſo <hi>beloved of all</hi> men as thou art. And <hi>Antiſthe<g ref="char:EOLhyphen"/>
+                     <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>es,</hi> when a vitious perſon praiſed him, anſwered, <hi>What <gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>vil have I done, that this man ſpeaks well of me?</hi> And <hi>Terrence,</hi> It is a glorious and laudable thing, to be evil <gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>poken of by wicked men: And another, It is no ſmall <hi>
+                     <gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>edit with the vile, to have a vile</hi> eſtimation. Yea ſays <hi>Epictetus,</hi> it is the higheſt degree of <hi>honour</hi> and reputati<g ref="char:EOLhyphen"/>on, for a man to <hi>hear ill,</hi> when he <hi>does well:</hi> And <hi>Job</hi> was of his judgement, <hi>Job</hi> 31.35, 36, 37. And <hi>Luther</hi> the like, <hi>I rejoyce,</hi> ſath he, <hi>that Satan ſo rages, and blaſphemes; it is likely I do him and his kingdom the more miſchief.</hi> How<g ref="char:EOLhyphen"/>ever, <hi>thy ſin is never the leſs,</hi> nor will <hi>thy puniſhment</hi> be at all <hi>the lighter;</hi> for thou haſt deeply cenſured and con<g ref="char:EOLhyphen"/>demned the generation of the juſt: thou haſt often raiſed an ill report of them, as thoſe <hi>falſe-hearted ſpies</hi> did of the <hi>L<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>nd of Canaan,</hi> Numb. 13.32, 33. And that ſcandal paſſing through many mouths, hath multiplyed like a Snow-ball; which at beſt hath left ſuch a ſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ar of ſuſpition upon their names and credits, that even death it ſelf will not be able to cure. Whereas the Scripture ſays, <hi>Curſed be he that ſmiteth his Neighbour ſecretly,</hi> Deut. 27.24. and <hi>him that prively ſlandereth his Neighbour, will I deſtroy,</hi> Pſal. 101.5.</p>
+               <p>Nor is he that receives and believes a falſe report leſs faulty: for as he that <hi>reports a ſlander</hi> hath the <hi>Devil</hi> in his <hi>Tongue,</hi> ſo he that <hi>receives it,</hi> hath the <hi>Devil in his Ear</hi> as <hi>Bernerd</hi> excellently, the one is the <hi>Poſt-horſe,</hi> or Meſſen<g ref="char:EOLhyphen"/>ger of <hi>Satan;</hi> the other is the <hi>Recorder,</hi> or <hi>Regiſter of Hell:</hi> And were there <hi>no Receivers</hi> in this caſe, there would be <hi>no Thieves:</hi> If ſome had not <hi>itching Ears to hear
+<pb n="16" facs="tcp:151473:10"/>falſe Rumors, others would</hi> not have <hi>ſcratching tongues,</hi> like the <hi>Pens of Libellers</hi> to <hi>make</hi> and <hi>move</hi> them; For even the <hi>leaſt cheek,</hi> or frown <hi>of a ſtander by,</hi> will <hi>ſilence</hi> the <hi>bar<g ref="char:EOLhyphen"/>king tongue:</hi> And had they both their dues, <hi>Tale-bearers</hi> ſhould be <hi>hanged</hi> up <hi>by their tongues,</hi> and <hi>Tale-hearers</hi> by <hi>their ears;</hi> as <hi>Plautus</hi> ſpeaks: Wherefore look to it in time; for if the <hi>Goats</hi> at the <hi>great day,</hi> ſhall be bid <hi>De<g ref="char:EOLhyphen"/>part into everlasting torment,</hi> for not <hi>Feeding, cloathing, viſiting, Math.</hi> 25.41 to 46. what ſhall be done to thoſe that <hi>perſecute Christ</hi> in his <hi>members?</hi>
+               </p>
+               <p>Both <hi>Prophane</hi> and <hi>Civil men</hi> are apt to <hi>ſenſure the Re<g ref="char:EOLhyphen"/>ligious:</hi> But why? you may take notice, that it is <hi>hard not to be an Hypocrite in his eyes that makes no profeſſion of God<g ref="char:EOLhyphen"/>lineſs.</hi> And none ſo <hi>fit to make an Iſhmael,</hi> as a <hi>Doeg,</hi> or <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <hi>Nabal:</hi> The <hi>greateſt Fools,</hi> and the <hi>Wickedest</hi> are the <hi>greateſt Scoffers</hi> and <hi>Cenſurers:</hi>
+               </p>
+               <q>
+                  <l>
+                     <hi>Deceitful,</hi> ever will <hi>diſtruſtful be;</hi>
+                  </l>
+                  <l>But <hi>no diſtruſt</hi> is found in <hi>Honeſty.</hi>
+                  </l>
+               </q>
+               <p>
+                  <hi>Nero</hi> thought <hi>no perſon chaſte,</hi> becauſe <hi>himſelf</hi> was <hi>ſo un<g ref="char:EOLhyphen"/>chaſte.</hi> And ſtill <hi>the more wiſe, innocent, Religious,</hi> the <hi>leſ<g ref="char:EOLhyphen"/>ſenſerious.</hi> From which learn we theſe ſix Leſſons.</p>
+               <p>Firſt, <hi>Look to thy ſelf, over-look not others,</hi> unleſs the be ſuch as are committed to thy proper charge.</p>
+               <p>Secondly, <hi>Cloſe thine Ears againſt him,</hi> that ſhall <hi>ope<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> his mouth againſt another:</hi> And indeed, good men will <hi>nei<g ref="char:EOLhyphen"/>ther back-bite others, nor give Ear to back-biters of other.</hi> Whence <hi>Auſtine</hi> wrote over his Table thus:</p>
+               <q>
+                  <l>
+                     <hi>To ſpeak evil of the abſent forbear:</hi>
+                  </l>
+                  <l>
+                     <hi>Or elſe ſit not at Table here.</hi>
+                  </l>
+               </q>
+               <p>Thirdly, <hi>Commend no man to his face,</hi> and <hi>traduce <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> man behinde his back.</hi>
+               </p>
+               <p>Fourthly, If <hi>thou ſeeſt,</hi> or heareſt any one <hi>commit <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> fault,</hi> make his <hi>caſe thine</hi> own; and ſay either <hi>I am, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> have been, or may be as faulty my ſelf.</hi>
+               </p>
+               <p>Fifthly, Do not ſuch things thy <hi>ſelf,</hi> as thou would<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> diſpraiſe in another.</p>
+               <pb n="17" facs="tcp:151473:10"/>
+               <p>Sixthly, And eſpecially take notice of this, that the <hi>Back-biter is bound</hi> in <hi>Reaſon</hi> and <hi>Religion, to restore the good name of his Neighbour,</hi> which he hath <hi>by detraction ta<g ref="char:EOLhyphen"/>ken away:</hi> and that is exceeding hard, for a mans <hi>honeſt fame,</hi> is <hi>like the Merchants wealth, got in many years,</hi> and <hi>loſt in an hour.</hi> Wherefore <hi>ſpeak well of all</hi> men, <hi>alwayes, and in all Companies,</hi> if it may be done with truth; and when it cannot, then be ſilent: Only <hi>ſet him down for</hi> a <hi>notorious</hi> wicked man, <hi>who does watch</hi> for advantages a<g ref="char:EOLhyphen"/>gainſt others, <hi>and rejoyces at others infirmities,</hi> or miſcar<g ref="char:EOLhyphen"/>riages; and after makes it his cheef delight to ſpeak of them, and diſpute againſt <hi>them, or that which is good.</hi>
+               </p>
+            </div>
+            <div n="5" type="section">
+               <head>SECT. V.</head>
+               <p>AS there is a <hi>Sacred Trinity, the Father, Son and Holy Ghoſt, provoking to good;</hi> ſo there is a <hi>curſed Cerbe<g ref="char:EOLhyphen"/>rus, inticing to ſin,</hi> the <hi>World,</hi> the <hi>Fleſh,</hi> and the <hi>Devil;</hi> whereof the <hi>Devil</hi> is <hi>cheef.</hi> Whence he is ſtiled, as by a kinde of excellency, <hi>T<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>e Tempter:</hi> As <hi>Virgil</hi> is called <hi>the Poet, Aristotle the Philoſopher,</hi> and <hi>David the King.</hi> Now the <hi>Devils trade</hi> and occupation, is onely <hi>to make Nets, and Gins, and Snares to catch thee and me,</hi> and each man; the wiſdom of <hi>Haven</hi> deliver us! And what he cannot do by himſelf, and in his own likeneſs; he does by his inſtruments, wicked men; whom he <hi>not only tempts to lewdneſs, but tempts them alſo to tempt others.</hi> As when he had <hi>tempted Eve,</hi> and made her his Vaſſal <hi>ſhe</hi> proved an apt &amp; ready Inſtrument to <hi>ſeduce Adam, to eat the forbidden Fruit,</hi> though at the <hi>price of death eternal.</hi> And according to this preſident, the wicked in all ages have followed her example: for as ſhe had no ſooner eat the forbidden Fruit, but ſhe draws her Husband into the ſame ſin with her; in like manner do all ſorts of ſinners, as <hi>Thieves,</hi> Pro. 1.10, 11. <hi>Idolators,</hi> Deut. 13.6. <hi>Falſe prophets,</hi> Ezek. 44.12. <hi>Perſecutors of the godly,</hi> Act. 19.24, 25. <hi>&amp;c.</hi> the
+<pb n="18" facs="tcp:151473:11"/>Covetous, <hi>Acts</hi> 19.24, 25. <hi>Adulterers,</hi> &amp;c. <hi>Gen.</hi> 39 7. I<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> you will ſee a rare inſtance or Example hereof, read <hi>Gen.</hi> 19.31 to 38. Where the <hi>Eldeſt of</hi> Lots <hi>Daughters, having made her Father drunk on</hi> purpoſe to <hi>commit in<g ref="char:EOLhyphen"/>cest</hi> with him, the <hi>next care ſhe took, was to make her youn<g ref="char:EOLhyphen"/>ger ſiſter do the like;</hi> And which is alſo conſiderable, <hi>Sa<g ref="char:EOLhyphen"/>tan</hi> is like a <hi>cunning ſingler;</hi> and as all <hi>Fiſhes</hi> are not take<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> one way, but ſome with <hi>a Net,</hi> ſome with a <hi>Dart,</hi> o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Drag,</hi> others with a <hi>Hook;</hi> nor with one <hi>bait,</hi> but every Fiſh with that bait <hi>they like beſt: So Satan by his Subſti<g ref="char:EOLhyphen"/>tutes</hi> tempts every man by that way and means, which he knoweth moſt prevolent, and taking with the party tempted; of which I might give you inſtances of all ſorts, but I muſt paſs them.</p>
+               <p>Nor wants he Brains for invention of ſlights, to com<g ref="char:EOLhyphen"/>paſs his deſigns, he hath <hi>divers</hi> and ſundry <hi>wayes to aſſault</hi> us, <hi>many ſtrings to his bow;</hi> that if ſome break, the reſt may hold, <hi>many Traynes of Powder,</hi> ſome likely to take fire: yea, he is like ſome <hi>cunning Engineer,</hi> that can <hi>in<g ref="char:EOLhyphen"/>vent new inſtruments,</hi> according to the preſent <hi>occaſion<g ref="char:punc">▪</g>
+                  </hi> and he inventeth all he can, and puts in practiſe all tha<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> he inventeth. Yea, ſo many Snares and Engines are laid by the profeſſed Enemy of man, to intrap our ſouls, that we may with reverence and love, wonder at the mercy of <hi>God</hi> in our delivery!</p>
+               <p>
+                  <hi>Cuſtome</hi> brings <hi>ſin</hi> to be ſo <hi>familiar,</hi> that the <hi>horrour</hi> of it is turned into <hi>delight;</hi> yea, how is the ſoul that <hi>takes <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> delight in lewdneſs, gained upon by custome?</hi> And when men are <hi>once cruſted over with perſeverance</hi> in ſin, <hi>no hop<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> of returning;</hi> which may teach us to <hi>make conſcience of ſmall ſins, not to reiterate or allow our ſelves in the</hi> practiſe of <hi>any</hi> known <hi>ſin.</hi> We deal with our <hi>conſciences,</hi> as with ou<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Apparel;</hi> when we have got on <hi>a new Suit</hi> freſh and fai<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> we are very <hi>chary of abuſing it;</hi> we take heed where w<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſit, what we touch, or againſt what we lean; but when <hi>grown a little old,</hi> ſoyled and ſullied, <hi>we have no</hi> ſuch
+<pb n="19" facs="tcp:151473:11"/>
+                  <hi>regard of it,</hi> we little paſs what we do with it, nor minde where we caſt it. So the <hi>uxorious Husband at</hi> the <hi>firſt, Ido<g ref="char:EOLhyphen"/>lixeth his Wife; no noiſe</hi> muſt diſturb her, <hi>the cold winde</hi> muſt not <hi>blow upon</hi> her, the <hi>Sun</hi> muſt be <hi>ſhaded from her</hi> beauty, her <hi>feet</hi> muſt ſcarce <hi>touch the earth,</hi> nothing muſt offend her; <hi>ſhe commands all,</hi> her will is a law: perhaps <hi>after a while, none of all this, but the contrary:</hi> Even ſuch is our dealing with conſcience, as we ſee in <hi>David,</hi> who at firſt, was <hi>ſo tender</hi> of it, <hi>that the lap of</hi> Sauls <hi>Garment</hi> onely troubled him to the heart; but <hi>giving way to his own corruptions, and Satans temptations,</hi> to wh<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>t <hi>a height of ſin</hi> was he <hi>riſen?</hi> at firſt he onely looſed the raines to <hi>Idle<g ref="char:EOLhyphen"/>neſs,</hi> from <hi>Idleneſs</hi> he proceeds to <hi>luſt,</hi> from <hi>lust</hi> to <hi>drunken<g ref="char:EOLhyphen"/>neſs</hi> from <hi>drunkenneſs</hi> to <hi>murther,</hi> &amp;c. <hi>Murther</hi> ſhall be im<g ref="char:EOLhyphen"/>ployed to hide <hi>Adultery, the fact which wine cannot conceal, the ſword ſhall;</hi> yea, what abrood of ſins hath the <hi>Devil hatcht</hi> out of this <hi>one Egg of Adultery? <g ref="char:V">Ʋ</g>riah</hi> ſhall <hi>bear his own mittimus</hi> to <hi>Joab,</hi> and be the meſſenger of his own death; <hi>Joab</hi> muſt be a <hi>Traytor</hi> to his <hi>Friend:</hi> the <hi>Host of God</hi> muſt ſhamefully turn their backs upon their enemies; much blood of <hi>Iſrael</hi> muſt be ſpilt; many a good Soul<g ref="char:EOLhyphen"/>der caſt away, that murther muſt be ſeconded with <hi>diſſi<g ref="char:EOLhyphen"/>mulation,</hi> and all this to hide one <hi>Adultery.</hi> Men go firſt <hi>over ſhoes,</hi> then <hi>over boots,</hi> then <hi>over ſhoulders,</hi> at length <hi>over head and ears in ſin,</hi> as ſome do in debt, 2 <hi>Tim.</hi> 3.13.</p>
+            </div>
+            <div n="6" type="section">
+               <head>SECT. VI.</head>
+               <p>
+                  <hi>PRide</hi> is the <hi>inmoſt coat,</hi> which we <hi>put on firſt,</hi> and which we <hi>put off last:</hi> It was the <hi>firſt ſin in Heaven,</hi> and the <hi>firſt</hi> ſin <hi>in Paradiſe,</hi> and the <hi>firſt</hi> ſin <hi>that rains in us,</hi> and the <hi>firſt</hi> commonly <hi>in every</hi> thought, word and <hi>action</hi> of ours. It is the <hi>nature of man</hi> to be proud; when <hi>man by nature</hi> has nothing to be proud of: As, are we proud of our <hi>Attire?</hi> Alaſs, <hi>our Cloaths</hi> are but as <hi>a Plaister upon a Sore.</hi> Wickedneſs brought nakedneſs, and Apparel hides it:
+<pb n="20" facs="tcp:151473:12"/>Whereof being proud, is, as if <hi>a Thief</hi> ſhould be <hi>proud of h<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap> Halter.</hi> Our Cloaths are but to cover ſhame and nake<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLhyphen"/>neſs; but as figns of <hi>Gods</hi> diſpleaſure, by reaſon of <hi>O<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                     <g ref="char:EOLhyphen"/>ginal ſin.</hi> Our Apparel are but like <hi>a Weſtminſter-Hall paper,</hi> to ſhew what we have committed, which occaſion<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> it; nor had we elſe needed them. This is as if <hi>a Rog<gap reason="illegible" resp="#MURP" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>
+                  </hi> ſhould have <hi>his pardon,</hi> upon condition that he will eve<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> after wear <hi>a Rope about his neck</hi> And therefore as on<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>burned in the Fore-head,</hi> for ſome Villany; ought ſo oft<gap reason="illegible" resp="#MURP" extent="2 letters">
+                     <desc>••</desc>
+                  </gap> as he looketh himſelf in <hi>a Glaſs,</hi> and <hi>ſeeth the ſcar</hi> there of, to think upon, and deteſt his wickedneſs; ſo ough<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> we.</p>
+               <p>Are we proud of our <hi>Knowledge?</hi> for one thing which we know, we are ignorant of a thouſand things which we ſhould know, and do not: And for what we do know to be proud of it, is to be proud of that which is anothers, and for which we are deeply in debt. If we have any thing that is <hi>good, God is the giver of it;</hi> if we do any thing <hi>well, he is the Author</hi> of it, <hi>Joh.</hi> 3.2. <hi>Rom.</hi> 11.36. 1 <hi>Cor.</hi> 4.7. and 11.23. We have not onely received out talents, but the improvement alſo is his meer bounty. <hi>Thou haſt wrought all our works in us,</hi> ſaies the Prophet <hi>Iſaiah, Chap,</hi> 26. <hi>ver.</hi> 12. We do good Works, but ſo much as is good in them, is not ours, but God's: We for theſe things, <hi>magis Deo debitor eſt, quam Deus homini,</hi> are rather debtors to <hi>God,</hi> then <hi>God</hi> to us. We cannot ſo much as give him <hi>gratias,</hi> thanks; unleſs he firſt give us <hi>gratiam,</hi> the grac<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> of thankfulneſs. <hi>God</hi> gives not onely <hi>grace asked,</hi> but <hi>grac<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> to ask:</hi> We cannot be patient under his hand, except hi<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> hand give us patience. <hi>God muſt infuſe, before we can effuſe.</hi> The <hi>ſprings</hi> of our hea<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>ts muſt be <hi>filled from that ocean, before we can derive drink to the thirſty<g ref="char:punc">▪</g>
+                  </hi> For as the <hi>virtue</hi> attra<g ref="char:EOLhyphen"/>ctive <hi>to draw Iron,</hi> is not in the Iron, but <hi>in the Adament<g ref="char:punc">▪</g>
+                  </hi> ſo all our ability is of <hi>God,</hi> and nothing as our own can we challenge, ſave our defects and infirmities.</p>
+               <p>And indeed our <hi>axes, ſaws, hammers</hi> and <hi>chiſels</hi> may as
+<pb n="21" facs="tcp:151473:12"/>well and as juſtly riſe up and <hi>boast, they have built our houſes,</hi> and <hi>our pens</hi> receive the honour of our <hi>writings,</hi> as we attribute to our ſelves, the praiſe of any of our good actions. And it were as ridiculous ſo to do, as <hi>to give the Souldiers honor to his ſword; For of him and through him, and for him are all things: to whom be glory for ever,</hi> Amen. <hi>Rom.</hi> 11.36. It happened that <hi>Bernard</hi> one day made a curious and learned <hi>Sermon,</hi> for which he expected great applauſe, but received none: The next time he made a plain wholeſome Sermon, and it was wonderfully affected, li<g ref="char:EOLhyphen"/>ked and commended. A friend of his noting it, askt him what might be the reaſon? Who anſwered, In the one I preached <hi>Bernard,</hi> in the other <hi>Chriſt;</hi> in the one I ſought to win glory and praiſe to my ſelf; in the other, the glo<g ref="char:EOLhyphen"/>ry of <hi>God,</hi> and the <hi>ſalvation of ſouls,</hi> which received bleſ<g ref="char:EOLhyphen"/>ſing from above, and that made the difference. <hi>Pride and folly,</hi> are two vices that <hi>ever go together.</hi>
+               </p>
+               <p>
+                  <hi>Plato</hi> being demanded how he knew a Wiſe man? an<g ref="char:EOLhyphen"/>ſwered; when being rebuked, he would not be angry<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>; and being praiſed, he would not be proud</p>
+               <p>I am not worthy, ſaies the <hi>Senturian.</hi> I am vile (ſaith <hi>Job</hi>) in Underſtanding. I am not a man, ſays <hi>Agur:</hi> I have done exceeding fooliſhly, ſaith <hi>David:</hi> I am the greateſt of ſinners, ſays <hi>Paul.</hi> It is the <hi>Believers Motto;</hi> the leaſt of Saints, the greateſt of ſinners: But the <hi>carnal mans Motto,</hi> is; I thank <hi>God,</hi> I am not as other men. Of the two, to be a <hi>Phariſee, is worſe,</hi> then to be a <hi>Publican:</hi> To be <hi>proud of good Endowments,</hi> is worſe then to have <hi>nei<g ref="char:EOLhyphen"/>ther pride nor good Endowments.</hi>
+               </p>
+               <p>The <hi>firſt Adam</hi> was for <hi>ſelf advancement,</hi> but the <hi>ſe<g ref="char:EOLhyphen"/>cond Adam</hi> is for <hi>ſelf debaſement.</hi> A proud perſon thinks every thing <hi>too much</hi> that is <hi>done by him;</hi> and every thing <hi>too little,</hi> that is <hi>done for him;</hi> though he not ſeldom falls ſhort of his expectation: like <hi>Neanthus,</hi> who handling the <hi>Harp of Orpheus,</hi> expected to make the <hi>Trees dance:</hi> whereas, by his confuſed jangling thereon, he cauſed the
+<pb n="22" facs="tcp:151473:13"/>
+                  <hi>Doggs to barke</hi> at him. A proud heart, as it loves none but it ſelf, ſo it is beloved by none but by it ſelf. No Vice gets a man ſo many Enemies as this Vice; not th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> humble a lone, but one proud man hates another; even your ſelf loves humility in all but your ſelf; as if you did wiſh well to all ſouls but your own.</p>
+               <p>Nothing gains love and credit, both with <hi>God</hi> and <hi>man</hi> like <hi>humility;</hi> nothing hatred and ſcorn like <hi>pride<g ref="char:punc">▪</g>
+                  </hi> Would we have <hi>God</hi> our Friend or our Enemy? we may, For <hi>he reſiſteth the proud, and giveth Grace to the humble, James</hi> 4.6. 1 <hi>Pet.</hi> 5.5. <hi>God</hi> and pride, cannot dwell in <hi>the ſame heart,</hi> that could not dewll in the ſame Heaven. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> 
+                  <hi>Looking-glaſs</hi> will make <hi>a Fool proud;</hi> but <hi>an Hour-glaſs</hi> will make <hi>a wiſe man humble.</hi> The higheſt <hi>Mountans</hi> are always the <hi>bareneſt Grounds.</hi> Such as have <hi>their thoughts high,</hi> and <hi>their Fortunes low,</hi> live always a penſive life; And the reaſon why we want our deſires, is; becauſe our deſires want reaſon: <hi>Yee, ask and receive not, becauſe ye ask amiſs, that ye may conſume it upon your luſts,</hi> James. 4.3.</p>
+               <p>VVe read that <hi>Epaminondus a Thebane Captain,</hi> the day after a great Victory and Triumph, went drooping and hanging down his head; and being asked why he did ſo? anſwered, Yeſterday I felt my ſelf too much tickled with pride, and vain glory: therefore I correct my ſelf for it to day. The like did <hi>Hezekiah,</hi> after his heart had been liſted up, he humbled himſelf, 2 <hi>Chron.</hi> 32. And ſo ought we.</p>
+               <p>
+                  <hi>Pambo</hi> eſpying a certain woman Flawnting it, in very ſumptuous Apparel, fell a weeping; and being asked why he wept? Anſwered, For two cauſes; One the de<g ref="char:EOLhyphen"/>ſtruction of this woman, Another becauſe I who profeſs my ſelf a <hi>Chriſtian,</hi> do not ſo much ſtudy to pleaſe <hi>God</hi> by my innocency of life, as this woman does to pleaſe the <hi>Devil</hi> and men, with her vanities. But let rotten Poſts be Gilded, and decayed Beauties Painted: Verty like a pretious <hi>Diamond</hi> needs no varniſh.</p>
+               <pb n="23" facs="tcp:151473:13"/>
+               <p>Certainly, if the <hi>polutions of our Birth,</hi> the <hi>miſeries of our Life,</hi> and the <hi>putrifaction</hi> of us ſoon enſuing our <hi>death,</hi> were well conſidered and laid to heart; it would make us truely humble.</p>
+            </div>
+            <div n="7" type="section">
+               <head>SECT. VII.</head>
+               <head type="sub">Five <hi>Allegories;</hi> or the Analagie between Man and a Houſe; a City, a Common-wealth, the whole World.</head>
+               <p n="1">1. MAn's Body is like a <hi>Houſe,</hi> his Soul is the <hi>Ma<g ref="char:EOLhyphen"/>ster,</hi> his greater Bones are the <hi>Beams,</hi> or <hi>Main<g ref="char:EOLhyphen"/>timber;</hi> his Ribs are <hi>Laths, dawbed</hi> over with Fleſh, and <hi>plaiſtred</hi> with Skin; his Mouth is the <hi>Door,</hi> his Throat th<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>Entry,</hi> his Heart the <hi>great Chamber,</hi> and his Head the <hi>Chap<g ref="char:EOLhyphen"/>pel,</hi> both full of curious Art, and wherein Conſcience as <hi>Chaplain</hi> is ever reſident.</p>
+               <p>His Midriff is a large <hi>Partition,</hi> 'twixt the <hi>great Cham<g ref="char:EOLhyphen"/>ber</hi> and the <hi>ſpacious Hall:</hi> his Belly is the <hi>Kitchin,</hi> his Stomack the <hi>Pot,</hi> where the <hi>meat</hi> is ſometimes but half <hi>ſod,</hi> for want of <hi>heat:</hi> his Teeth are the <hi>Kitchin knives,</hi> his Spleen is a <hi>Veſſel</hi> which Nature provides, to receive the <hi>ſcum</hi> that riſes from the <hi>Pot:</hi> his Lungs are the <hi>Bellowes</hi> that reſpire in every Office, quickning every <hi>Fire;</hi> his Noſe is the <hi>Chimney,</hi> whereby is vented ſuch <hi>fumes</hi> as the <hi>Bellows</hi> ſend up; his Bowels, or Conduits of excrement are the <hi>Sink</hi> to drain away all noiſome filth, and keep the <hi>Kitchin</hi> clean; his Brain is the <hi>Studie,</hi> his <hi>Eye</hi> like Cry<g ref="char:EOLhyphen"/>ſtal <hi>Windows,</hi> are clear and bright, to let in all <hi>Objects,</hi> and let out the <hi>ſight:</hi> his Senſes are the <hi>Servants,</hi> having every one a ſeveral <hi>Office,</hi> &amp;c. Or,</p>
+               <p n="2">2. Man is like a <hi>City;</hi> his Skin is the <hi>Walls,</hi> his Eves and Ears the <hi>Factors</hi> and <hi>Merchants,</hi> his Hands the <hi>Trades<g ref="char:EOLhyphen"/>men,</hi> his Legs the <hi>Porters,</hi> his Mouth the <hi>Gate,</hi> his Teeth the <hi>Portcullis,</hi> his Appetite the <hi>Cator,</hi> his Stomach the
+<pb n="24" facs="tcp:151473:14"/>
+                  <hi>Larther,</hi> or <hi>Kitchin,</hi> Digeſtion the <hi>Cook,</hi> Expulſion the <hi>Scavenger,</hi> his Soul the <hi>Church,</hi> Conſcience the <hi>Preacher,</hi> Reaſon and Experience are the <hi>Common-council,</hi> Memory is the <hi>Recorder, <g ref="char:V">Ʋ</g>nderſtanding</hi> the <hi>Governor,</hi> his <hi>Senſes</hi> are the <hi>Officers, Fortitude</hi> the <hi>Souldiers, Words</hi> the <hi>ſhot,</hi> his <hi>Brain</hi> is the <hi>State-houſe,</hi> and his <hi>Heart</hi> the <hi>Cittadel</hi> or <hi>Caſtle:</hi> Or,</p>
+               <p n="3">3. Man may be likened to a <hi>Kingdom</hi> or <hi>Common-wealth;</hi> his Head reſembles the <hi>Prince,</hi> his Heart the <hi>Privy council,</hi> in which Underſtanding ſits as <hi>Preſident:</hi> his Eyes are the <hi>Watchmen</hi> and <hi>Intelligencers,</hi> his Ears the <hi>Judges,</hi> commu<g ref="char:EOLhyphen"/>tative Juſtice the <hi>Law,</hi> cuſtom and experience the <hi>Jury<g ref="char:EOLhyphen"/>men,</hi> or <hi>Free-holders,</hi> the Joynts reſemble <hi>Concord and good Order,</hi> the Sinews <hi>Money,</hi> his Arms and Hands the <hi>Soul<g ref="char:EOLhyphen"/>diers</hi> and <hi>Trades-men,</hi> his Feet the <hi>Merchants,</hi> his Tongue the <hi>Pleaders,</hi> Conſcience the <hi>Preachers,</hi> the Affections are <hi>Inferiour Officers,</hi> the Senſes <hi>Servants,</hi> the Belly like <hi>Idle per<g ref="char:EOLhyphen"/>ſons,</hi> Truth is or ſhould be <hi>Treaſurer,</hi> Reaſon &amp; Religion <hi>Lord Chancellor,</hi> Memory <hi>Maſter of the Roles,</hi> &amp;c. Or,</p>
+               <p n="4">4. Man the <hi>Microcoſme</hi> or <hi>little world,</hi> is much like the <hi>great World</hi> or Univerſe: his Fleſh reſembles the <hi>Earth,</hi> his Bones the hard <hi>Rocks</hi> and <hi>Stones,</hi> his Spirits the <hi>Mi<g ref="char:EOLhyphen"/>nerals,</hi> his Hair the <hi>Graſs,</hi> his Breath is like the Air, natural heat the <hi>Fire,</hi> Blood the <hi>Water,</hi> his Liver the <hi>Sea,</hi> his Veins the <hi>Rivers,</hi> his face the <hi>Firmament,</hi> his Eyes thoſe two great lights of <hi>Sun</hi> and <hi>Moon,</hi> his Sinews the Treaſure and <hi>Wealth,</hi> his five Senſes the <hi>Sinkports,</hi> his Soul the Monarch, his Heart the <hi>Queen</hi> or Empreſs, his Head the Court or <hi>Senate-houſe,</hi> his Brains the <hi>Council</hi> or <hi>Senate,</hi> his Reaſon the Preſident, his Will the <hi>Law,</hi> &amp;c. Or if you will thus: Magiſtrates are the Arms of the world, <hi>Counſellors</hi> the Brains, <hi>Lawyers</hi> the Tongues, the <hi>Rich</hi> the Stomachs, the <hi>Poor</hi> the Backs, <hi>Merchants</hi> the Feet, Officers the Hands, and <hi>Divines</hi> the Hearts, &amp;c. His Youth reſembles the Spring, his Man-hood <hi>Summer,</hi> his Middle-age <hi>Autumne,</hi> his Old-age <hi>Winter;</hi> and the like between the four humours in Man's body, and the four Quarters of the year.</p>
+               <pb n="25" facs="tcp:151473:14"/>
+               <p>The <hi>little World man,</hi> is ſo the Compendium and A<g ref="char:EOLhyphen"/>bridgment of all creatures, that whatſoever is imprinted with Capital Letters in that large volumne as in <hi>Folio,</hi> is ſweetly and harmoniouſly contracted in <hi>Decimo Sexto,</hi> in the brief Text of man, who includes all: <hi>Planets</hi> have being, not life; <hi>Plants</hi> have life not ſenſe; <hi>Beaſts</hi> have ſenſe; <hi>Man</hi> hath all, and contains in him more gene<g ref="char:EOLhyphen"/>rallity then the <hi>Angels,</hi> viz. <hi>being</hi> with <hi>Planets, life</hi> with <hi>Plants, ſenſe</hi> with <hi>Beaſts, reaſon</hi> with <hi>Angels:</hi> but the Be<g ref="char:EOLhyphen"/>liever hath over and above, <hi>GOD'S</hi> Spirit and Faith. Nor does the <hi>rational</hi> ſo much excel the <hi>ſenſual,</hi> as the <hi>ſpiritual</hi> man excels the <hi>rational, Mat.</hi> 4.16. &amp; 15.14. <hi>Eph.</hi> 4.18. &amp; 5.8.1 <hi>Pet.</hi> 2.9.</p>
+               <p>The Emperour <hi>Marcus Antonius,</hi> being in <hi>Almany</hi> with his Army, was incloſed in a dry Countrey, by his Ene<g ref="char:EOLhyphen"/>mies, who ſtopped all the paſſages, that he and his Army were like to periſh for want of water. The Emperors Lieuetenant ſeeing him ſo diſtreſſed, told him, that he had heard, that the Chriſtians could obtain any thing of their God by their Prayers. Whereupon the Emperour having a Legion of Chriſtians in his Army, deſired them to pray to their God for his and the Armies delivery out of that danger. Which they preſently did, and in<g ref="char:EOLhyphen"/>ſtantly, a great thunder fell amongſt the enemies, and abundance of water upon the <hi>Romans,</hi> whereby their thirſt was quenched, and the enemy overthrown with<g ref="char:EOLhyphen"/>out any fight.</p>
+               <p>The <hi>Sibarites</hi> defirous to know from <hi>Apollo,</hi> how long their proſperity ſhould laſt? Were anſwered, That ſo ſoon as they began <hi>to prefer men before God, their ſtate ſhould be deſtroyed.</hi>
+               </p>
+               <p>In their <hi>Library at Conſtantinople</hi> (as <hi>Authours</hi> write) is contained <hi>an hundred thouſand Books:</hi> In that at <hi>Perga<g ref="char:EOLhyphen"/>mus two hundred thouſand:</hi> And in that at <hi>Alexandria ſeven hundred thouſand.</hi>
+               </p>
+               <pb n="26" facs="tcp:151473:15"/>
+               <p>
+                  <hi>Ariſtippus</hi> being derided by a <hi>fearleſs ſouldier,</hi> for <hi>droop<g ref="char:EOLhyphen"/>ing in danger of ſhipwrack,</hi> could anſwer, Thou and I have not the like cauſe to be afraid: for thou ſhalt only loſe the <hi>life of an Aſs,</hi> but I the <hi>life of a Philoſopher. Antiſ<g ref="char:EOLhyphen"/>ſthines,</hi> as I take it (though I may be miſtaken) told the Saylers (that wondred why <hi>he</hi> was not, as well as <hi>they,</hi> afraid in a ſtorm,) That the <hi>odds</hi> was much; for they feared the <hi>torments due to a wicked life,</hi> and he expected the reward <hi>of a good one.</hi>
+               </p>
+               <p>
+                  <hi>Horace</hi> had not the gift of <hi>talking,</hi> but he could write notably. <hi>Moſes was ſlow of ſpeech,</hi> St. <hi>Pauls bodily pre<g ref="char:EOLhyphen"/>tence was weak,</hi> and <hi>his ſpeech contemptible;</hi> but for men<g ref="char:EOLhyphen"/>tal excellencies, who ever went beyond them? <hi>Origen</hi> of <hi>Alexandria</hi> had <hi>ſeven ſwift Notaries,</hi> to write down in order that which ſo plentifully came into his mind; and as many <hi>Scriveners</hi> to tranſcribe for him.</p>
+               <p>
+                  <hi>Buſiris</hi> (whom <hi>Hercules</hi> ſlew) uſed to <hi>kill ſuch as came</hi> to him <hi>for hoſpitality. Magnus Epiſcopus, Biſhop of Ments, burned</hi> an unnumerable company of <hi>poor</hi> people <hi>that cry<g ref="char:EOLhyphen"/>ed to him</hi> for help <hi>in a famine,</hi> calling them <hi>Rats. Theodo<g ref="char:EOLhyphen"/>ſius</hi> the <hi>Prince,</hi> fraudulently <hi>called together at</hi> Theſſolo<g ref="char:EOLhyphen"/>nica, <hi>ſeven thouſand innocent perſons,</hi> as it were to ſee a Play, and <hi>then ſent in Souldiers who ſlew them.</hi>
+               </p>
+            </div>
+            <div n="8" type="section">
+               <head>SECT. VIII.</head>
+               <p>THe <hi>manna</hi> of <hi>Spiritual influences,</hi> does moſt uſually <hi>fall in the dew of ſpiritual Ordinances,</hi> and <hi>duly ob<g ref="char:EOLhyphen"/>ſerving the Sabboth,</hi> except <hi>in praying, temptations never trouble a</hi> man <hi>ſo much as in hearing;</hi> which ſhews that <hi>theſe three are the destroyers of the Deſtroyer.</hi> The <hi>not hungering after meat,</hi> and the <hi>not beating of the Pulſe,</hi> are <hi>two ſhrewd ſignes of a deſperate ſoul.</hi>
+               </p>
+               <p>
+                  <hi>Sacriledge</hi> is <hi>the greateſt theft,</hi> yet of it men make <hi>the leaſt conſcience;</hi> But <hi>Ingratitude</hi> in this above all other caſes, <hi>is a parching Wind, that drys up and kills the heart of
+<pb n="27" facs="tcp:151473:15"/>both ſorts of bleſſings,</hi> which otherwiſe <hi>God</hi> would beſtlow. The <hi>Ark of God payes for its entertainment,</hi> whereſoever it comes; therefore that they who have <hi>the largeſt crops</hi> ſhould ſend into <hi>Gods Houſe the feweſt Tithes,</hi> argues both a blockiſh, and baſe ingratitude. Parhaps <hi>a Miniſter</hi> may be <hi>ſcandulous</hi> (which is a great ſhame and blot) yea not a few are like <hi>Barbers</hi> that <hi>trim,</hi> or <hi>Taylors</hi> that <hi>meaſure all but themſelves;</hi> like <hi>Cooks,</hi> that are Occupied in <hi>pre<g ref="char:EOLhyphen"/>paring dainty Cakes for others,</hi> yet none leſs partake of them then they; Like the <hi>penurious Farmer,</hi> that <hi>ſells good</hi> and wholſome <hi>Corn</hi> to others, but <hi>feeds upon</hi> the <hi>refuſe</hi> himſelf, or that which is muſty: yet God may uſe an <hi>E<g ref="char:EOLhyphen"/>gyptian Midwife</hi> to bring forth the child of an <hi>Iſraelite; Bulaams tongue</hi> ſhall <hi>convince Moab,</hi> and <hi>do good to</hi> Iſrael, <hi>not better himſelf.</hi> And <hi>Leaden Pipes,</hi> may <hi>convey</hi> pleaſant <hi>Waters.</hi> And <hi>fools</hi> are we, if we reject their wholſome <hi>inſtructions:</hi> For ſimply conſidered, <hi>the confeſion of ver<g ref="char:EOLhyphen"/>tue</hi> is of no leſs conſequence in his mouth that hateth the ſame; for as much as truth by force doth wreſt it from him: And though he will not admit it in him, at leaſt to adorn himſelf, he will ſometimes put it on. <hi>Light</hi> abides <hi>pure,</hi> though the <hi>Air</hi> in which it dwells be <hi>cor<g ref="char:EOLhyphen"/>rupt,</hi> yet it admits of <hi>no corruption.</hi> Therefore of all <hi>Paſtors,</hi> none ſo bad as the <hi>Ignorant;</hi> for how ſhould the <hi>blind</hi> ſee, when the <hi>ſeers</hi> are blind; however it troubles not them, as thoſe <hi>wretches in Acts</hi> 19. rather then a few <hi>ſhrine-makers</hi> ſhould <hi>loſe their gains,</hi> cared not though a <hi>whole City lost their ſouls.</hi>
+               </p>
+               <p>It was for the <hi>love of Eloquence,</hi> that St. <hi>Auſtine,</hi> ſo of<g ref="char:EOLhyphen"/>ten frequented St. <hi>Ambroſs his Sermons,</hi> though the power and wholſomneſs of his <hi>doctrine made him</hi> become a <hi>Chri<g ref="char:EOLhyphen"/>ſtian.</hi> Though the <hi>ſweetneſs of the ſauce</hi> only <hi>yields</hi> us <hi>con<g ref="char:EOLhyphen"/>tentment,</hi> and that it is <hi>the ſoundneſs of the meat</hi> which af<g ref="char:EOLhyphen"/>fords us <hi>nouriſhment;</hi> yet pitty it is that <hi>Divinity</hi> and <hi>O<g ref="char:EOLhyphen"/>ratory</hi> ſhould be parted; for <hi>ſweet ſimilitudes, rare exam<g ref="char:EOLhyphen"/>ples, choice</hi> and <hi>elegant Expreſſions</hi> upon a good ſubject, are
+<pb n="28" facs="tcp:151473:16"/>no other then <hi>ſweet baits to make an ill man</hi> become ver<g ref="char:EOLhyphen"/>tuons. <hi>Plutarchs fulneſs,</hi> and <hi>Senecas quickneſs;</hi> or as an<g ref="char:EOLhyphen"/>other hath it, <hi>Seneca in his ſhort coat,</hi> or <hi>Cicero in his long gown,</hi> will never <hi>cloy</hi> an intellegent, or <hi>ingenious Rea<g ref="char:EOLhyphen"/>der,</hi> or <hi>Hearer;</hi> and yet if <hi>Satan with one lye</hi> to our <hi>first Parents,</hi> could make fruitleſs, what <hi>God</hi> himſelf had <hi>preached</hi> to them <hi>immediately before, Gen.</hi> 3.4, 5. well may he find out a way to make fruitleſs and fruſtrate what any <hi>Miniſter</hi> can preach, or <hi>Authour</hi> write, be it never ſo excellent.</p>
+               <p>I have read <hi>a Book</hi> ſo conſiderable, that I would not but have read it for <hi>an hundred pounds;</hi> and yet the <hi>Au<g ref="char:EOLhyphen"/>thour</hi> ſo diſpiſed by ſome, that through prejudice they would have burnt it, rather then read <hi>it,</hi> though <hi>them<g ref="char:EOLhyphen"/>ſelves</hi> are more to be pittied then the <hi>Authour.</hi> Many men regard not ſo much <hi>what is writ, or ſpoken,</hi> as <hi>who writes or ſpeaks,</hi> they <hi>value not the mettle,</hi> but the <hi>ſtamp</hi> which is upon it; if the <hi>man like them not,</hi> they will <hi>diſlike the matter,</hi> being of <hi>Maldonats</hi> mind, who pro<g ref="char:EOLhyphen"/>feſſed to diſlike and avoid many fair interpretations, <hi>not as falſe but as Calvins; or Cardinal Mattheo Longi, Arch biſhop of Salſburge,</hi> who told every one that the <hi>Re<g ref="char:EOLhyphen"/>formation of the Maſſe</hi> was honeſt, the liberty <hi>in meats</hi> convenient, and the demand juſt and expedient, to be <hi>diſburthened of ſo many Commandments of men;</hi> but that <hi>Luther a proor Monk ſhould reform all, was not to be en<g ref="char:EOLhyphen"/>dured.</hi>
+               </p>
+               <p>There is another <hi>Book</hi> of leſs bulk, <hi>ſmall in quantity,</hi> but <hi>great in excellency,</hi> which is ſo undervalued for the <hi>Au<g ref="char:EOLhyphen"/>thors ſake,</hi> (though ſuch as are foreſtaled with prejudice againſt him, do but <hi>pick ſtraws to put out their own eyes withal</hi>) that it hath occaſioned <hi>me without leave</hi> from, or once acquainting the <hi>Author,</hi> to collect or gather out of his <hi>well ſet Garden,</hi> many <hi>choice flowers,</hi> to the end, that <hi>detraction</hi> might not <hi>rob the World</hi> of ſo many <hi>pretious Pearls.</hi> The Book deſerves to be named, (though I
+<pb n="29" facs="tcp:151473:16"/>ſhould ſhare with the <hi>Author,</hi> in making their calumny re<g ref="char:EOLhyphen"/>flect upon my ſelf) for no matter <hi>how cloſe evils</hi> be, nor <hi>how publick good</hi> is: A <hi>good thing,</hi> the more common it is, the better it is. Yea, to conceal goodneſs is a vice, but virtue is better, by being imparted. But I forbear, as not doubting but ſome will read theſe lines, who need not be told where I had them.</p>
+               <p>Onely ſomething <hi>I will ſay</hi> to his Calumniators, and <hi>not much,</hi> as they will <hi>not much care what I ſay.</hi> Little do you conſider what miſchief you do, in ſo <hi>traducing</hi> and <hi>aſperſing Preachers</hi> and <hi>Authors,</hi> and in prejudicing others, that they <hi>cannot diſcern the true viſſage of things.</hi> Beſides, how unworthy a thing is it in a man of worth to calumniate? it being, for the moſt part, the badge of ſome defect, for <hi>low merrit only raiſeth it ſelf on the ruines of ano<g ref="char:EOLhyphen"/>thers fame;</hi> and an infallible teſtimony of <hi>malice,</hi> and de<g ref="char:EOLhyphen"/>ſire of <hi>miſchief</hi> it is, for he <hi>ſpares him not with his tongue, becauſe he can no otherwiſe harm him with his hands.</hi>
+               </p>
+               <p>But what do they get by it? they diſcredit themſelves more, then they do the party traduced, (if they be god<g ref="char:EOLhyphen"/>ly-wiſe that hear it) wherein they <hi>reſemble the Bee,</hi> that will <hi>looſe her ſting to miſchief another,</hi> though ſhe remains a <hi>Drone</hi> ever after; Or the <hi>ſilly Fly,</hi> which <hi>ſingeth her own Wings,</hi> and torments her ſelf in the <hi>flaming Light,</hi> which ſhe <hi>labours</hi> to extinguiſh and put out. But envy is ſuch a thing, that when it ſees <hi>anothers fame to eclipſe their own;</hi> ſhould it not <hi>vent it ſelf</hi> at the mouth, their malice and envy would even burſt <hi>them,</hi> as <hi>Seneca</hi> thought, and <hi>Sauls</hi> example touching <hi>David,</hi> ſufficiently proves: yea, were it not ſo, how could they diſcredit themſelves to diſcredit others? as <hi>Thamor defiled her ſelf, to be re<g ref="char:EOLhyphen"/>venged of</hi> her Father in Law <hi>Judah.</hi>
+               </p>
+               <p>And yet <hi>the willing ear detracts as much,</hi> if not worſe then the <hi>ſlanderous Tongue,</hi> (as one obſerves) this being the <hi>Tempter,</hi> the other the <hi>Tempted;</hi> and nothing ſooner <hi>ſtrikes detraction dumb,</hi> then a condemning and <hi>diſliking
+<pb n="30" facs="tcp:151473:17"/>deafneſs, As the North wind driveth away Rain, ſo doth a<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> angry countenance a back-biting tongue,</hi> Prov. 25.23. <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> that men would <hi>ſpit at this Aſp,</hi> ſo ſoon as it but begin<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> to <hi>hiſs!</hi> and that theſe detractors, would <hi>pare off thoſ<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> envious Nails,</hi> that are ever <hi>ſcratching thoſe faces</hi> that ar<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> fairer then their own. For to the ingenuous Ear, <hi>detr<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>
+                     <g ref="char:EOLunhyphen"/>ction of all noiſes is moſt harſh, pleaſing only,</hi> or chiefly <hi>to the baſer ſort of people;</hi> they know no better way o<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <hi>commending themſelves,</hi> then by <hi>diſparaging others.</hi> It <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> ſaid of <hi>Golden mouthed Chryſoſtom,</hi> That he <hi>never ſpake <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> of any</hi> man; find out ſuch another, and I'lie <hi>put his nam<gap reason="illegible" resp="#MURP" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> in the Chronicle with Letters of Gold.</hi> O for an <hi>Antidote</hi> that would cure this <hi>Poyſon of Aſps!</hi> it were worth a <hi>mil<g ref="char:EOLunhyphen"/>lion</hi> of Treaſure. In the mean time take notice, you proud and <hi>diſdainful Momuſſes,</hi> that he who reads a <hi>Book<g ref="char:punc">▪</g>
+                  </hi> or hears a <hi>Sermon;</hi> and when he finds a <hi>Solaciſm,</hi> or per<g ref="char:EOLhyphen"/>haps a Latain, Greek or Hebrew <hi>Cotation</hi> falſe ſpelled, (which may be the P<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>inters <hi>fault,</hi> and not the Authors) ſhall take notice and <hi>tell of that, paſſing over</hi> many other <hi>excellent things</hi> without ſpeaking a word of them, is a<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> full of <hi>envy pride</hi> and <hi>malice,</hi> as the <hi>Egg of a Cockatric<gap reason="illegible" extent="2 letters">
+                        <desc>••</desc>
+                     </gap>is full of poyſon</hi> and that it's an Argument <hi>the Tree</hi> is mor<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> fruitful for ſuch an ones throwing at it. Yet this is the caſe of almoſt who not? though <hi>nothing more odious to <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> generous and noble mind;</hi> As you may obſerve by this.</p>
+               <p>A ſeeming Friend will refuſe to tells us of our Faults, but be very ready to tell others of them; whereas a tru<gap reason="illegible" resp="#MURP" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Friend will ſpeak of our Faults to our Face, of our Vir<g ref="char:EOLhyphen"/>tue behind our backs; and <hi>he that loves not ſuch a Friend, hates himſelf.</hi>
+               </p>
+            </div>
+         </div>
+         <trailer>Here ends the firſt Part: The three other follows.</trailer>
+      </body>
+   </text>
+</TEI>
